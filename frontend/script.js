@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:5279/api/todo'; // change to match your backend port
+const apiUrl = 'http://localhost:5279/api/todo';
 const form = document.getElementById('todo-form');
 const input = document.getElementById('new-todo');
 const list = document.getElementById('todo-list');
