@@ -1,3 +1,5 @@
+const API_BASE_URL = 'http://localhost:5279/api/Todo';
+
 document.addEventListener('DOMContentLoaded', () => {
   const todoForm = document.getElementById('todo-form');
   const newTodoInput = document.getElementById('new-todo');

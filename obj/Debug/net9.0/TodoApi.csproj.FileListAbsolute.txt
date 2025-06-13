@@ -153,4 +153,4 @@
 /Users/matthewwaldeck/TodoApi/obj/Debug/net9.0/TodoApi.sourcelink.json
 /Users/matthewwaldeck/TodoApi/bin/Debug/net9.0/TodoApi.staticwebassets.runtime.json
 /Users/matthewwaldeck/TodoApi/obj/Debug/net9.0/compressed/v7fzscjp8g-bri41cy86q.gz
-/Users/matthewwaldeck/TodoApi/obj/Debug/net9.0/compressed/0peq9h2dv1-1o3wfvyt9f.gz
+/Users/matthewwaldeck/TodoApi/obj/Debug/net9.0/compressed/0peq9h2dv1-o50i3gkrqw.gz
