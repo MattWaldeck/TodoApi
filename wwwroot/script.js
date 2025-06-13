@@ -1,5 +1,3 @@
-const API_BASE_URL = 'http://localhost:5279/api/todo'; // Keeping the consistent API_BASE_URL
-
 document.addEventListener('DOMContentLoaded', () => {
   const todoForm = document.getElementById('todo-form');
   const newTodoInput = document.getElementById('new-todo');
@@ -50,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       const todoText = document.createElement('span');
-      todoText.textContent = todo.title; // Uses 'title' property from backend
+      todoText.textContent = todo.title;
       todoText.className = `flex-1 text-lg ${
         todo.isComplete ? 'line-through text-gray-500' : 'text-gray-800'
       }`;
@@ -78,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const newTodo = {
-      title: todoTitle, // Uses 'title' property for consistency with backend
+      title: todoTitle,
       isComplete: false,
     };
 
