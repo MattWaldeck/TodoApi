@@ -22,12 +22,25 @@ public class TodoController : ControllerBase
         return await _context.Todos.ToListAsync();
     }
 
+    [HttpGet("{id}")]
+    public async Task<ActionResult<TodoItem>> GetTodo(int id)
+    {
+        var todo = await _context.Todos.FindAsync(id);
+
+        if (todo == null)
+        {
+            return NotFound();
+        }
+
+        return todo;
+    }
+
     [HttpPost]
     public async Task<ActionResult<TodoItem>> CreateTodo(TodoItem todo)
     {
         _context.Todos.Add(todo);
         await _context.SaveChangesAsync();
-        return CreatedAtAction(nameof(GetTodos), new { id = todo.Id }, todo);
+        return CreatedAtAction(nameof(GetTodo), new { id = todo.Id }, todo);
     }
 
     [HttpPut("{id}")]

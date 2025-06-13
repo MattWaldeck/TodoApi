@@ -151,3 +151,6 @@
 /Users/matthewwaldeck/TodoApi/obj/Debug/net9.0/TodoApi.genruntimeconfig.cache
 /Users/matthewwaldeck/TodoApi/obj/Debug/net9.0/ref/TodoApi.dll
 /Users/matthewwaldeck/TodoApi/obj/Debug/net9.0/TodoApi.sourcelink.json
+/Users/matthewwaldeck/TodoApi/bin/Debug/net9.0/TodoApi.staticwebassets.runtime.json
+/Users/matthewwaldeck/TodoApi/obj/Debug/net9.0/compressed/v7fzscjp8g-bri41cy86q.gz
+/Users/matthewwaldeck/TodoApi/obj/Debug/net9.0/compressed/0peq9h2dv1-llwv3apz22.gz
